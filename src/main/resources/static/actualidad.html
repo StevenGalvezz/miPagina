@@ -5,11 +5,113 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>El baloncesto y su historia</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     </head>
-    <body>
-        <div>TODO write content</div>
+    <body class="d-flex flex-column min-vh-100">
+        
+        <!-- Menu -->
+        <nav class="navbar navbar-expand-sm bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menú</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Leyendas
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="jordan.html">Michael Jordan</a></li>
+                                <li><a class="dropdown-item" href="kobe.html">Kobe Bryant</a></li>
+                                <li><a class="dropdown-item" href="kareem.html">Kareem Abdul-Jabbar</a></li>
+                                <li><a class="dropdown-item" href="lebron.html">LeBron James</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="actualidad.html">La actualidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Contenido -->
+        <main class="flex-grow-1">
+        <div class="container my-5">
+            <div class="text-center mb-4">
+                <h1 class="display-4">El baloncesto hoy</h1>
+                <p class="lead">Estrellas actuales y evolución del juego.</p>
+            </div>
+
+            <div class="card shadow-lg p-4">
+                <div class="card-body">
+                    <p>
+                        El baloncesto moderno ha evolucionado hacia un juego más rápido, estratégico y global. Con un enfoque
+                        creciente en el tiro de tres puntos, la versatilidad de los jugadores y el uso intensivo de datos y
+                        tecnología, el deporte ha cambiado significativamente respecto a décadas pasadas.
+                    </p>
+                    <p>
+                        Hoy, figuras como Stephen Curry, Giannis Antetokounmpo, Nikola Jokić, Luka Dončić y Joel Embiid lideran
+                        una nueva generación de estrellas con estilos únicos que mezclan habilidad técnica, físico
+                        imponente y creatividad.
+                    </p>
+                    <p>
+                        A nivel internacional, el baloncesto es más popular que nunca. La NBA cuenta con jugadores de más
+                        de 40 países, y ligas como la Euroliga, la Liga ACB (España) o la CBA (China) ganan cada vez más
+                        prestigio. Además, torneos como la Copa del Mundo FIBA y los Juegos Olímpicos siguen consolidando al
+                        baloncesto como un deporte verdaderamente global.
+                    </p>
+                    <p>
+                        En cuanto a tecnología, el análisis de datos, las cámaras inteligentes y los sistemas de seguimiento de
+                        jugadores han transformado la forma de entrenar, jugar y tomar decisiones tácticas.
+                    </p>
+                    <p class="fw-bold">
+                        El baloncesto sigue creciendo como fenómeno internacional.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </main>
+        <div class="d-flex justify-content-center mb-5">
+            <!-- no me acuerdo como poner videos D:-->
+            <iframe
+                width="1035" height="582" src="https://www.youtube.com/embed/7VUTvR1DDoI"
+                    title="Gracias por su atencion"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+            </iframe>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="bg-dark text-white mt-auto">
+            <div class="container-fluid bg-dark p-5 text-center">
+                <div class="row">
+                    <div class="col"><a href="https://www.facebook.com/nba/?locale=es_LA" target="_blank" class="text-decoration-none text-success"><i class="bi bi-facebook"></i> Facebook</a></div>
+                    <div class="col"><a href="https://www.youtube.com/user/NBA" target="_blank" class="text-decoration-none text-success"><i class="bi bi-youtube"></i> YouTube</a></div>
+                    <div class="col"><a href="https://x.com/NBA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="text-decoration-none text-success"><i class="bi bi-twitter-x"></i> Twitter</a></div>
+                    <div class="col"><a href="https://www.instagram.com/nba/?hl=en" target="_blank" class="text-decoration-none text-success"><i class="bi bi-instagram"></i> Instagram</a></div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     </body>
 </html>
